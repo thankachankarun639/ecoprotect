@@ -1,0 +1,108 @@
+body
+{
+ margin: 0px;
+ padding : 0px;
+ background-image : url(../img/volunteer.JPG)
+}
+a:link
+{
+ text-decoration : none;
+ color : black;
+}
+a:visited
+{
+ color : black;
+}
+
+#explanation,#new1,#new2,#new3
+{
+ position : absolute;
+ top : 80px;
+ left :0px;
+ width : 450px;
+ padding : 30px;
+ color : black;
+ background-color : white;
+ font-family : Arial;
+ font-size : 17px;
+ font-weight : bold;
+  opacity : 0.5;
+}
+#explanation > h1
+{
+ font-family : Forte;
+ font-size : 35px;
+ color : black;
+}
+
+#new1>h2,#new2>h2,#new3>h2
+{
+font-family : Agency FB;
+ font-size : 25px;
+ color : black;
+}
+
+#new3>h2
+{
+font-family : Agency FB;
+ font-size : 20px;
+ color : black;
+}
+
+#information
+{
+ position : absolute;
+ top :75px;
+ left :600px;
+ color : black;
+ font-family : Agency FB;
+ font-size : 20px;
+ font-weight : bold;
+ padding : 18px;
+ padding-left : 50px;
+ border-left : 2px solid white;
+ opacity : 0.8;
+ height : 400px;
+}
+#info2
+{
+ position : absolute;
+ top : 20px;
+ left : 350px;
+}
+
+#continue
+{
+position : absolute;
+ top :530px;
+ left :1000px;
+ color : black;
+ font-family : Agency FB;
+ font-size : 30px;
+ font-weight : bold;
+ padding-left : 30px;
+ color : white;
+ border-left : 2px solid white;
+ opacity : 0.85;
+}
+
+#new1
+{
+ left : 600px;
+ font-size : 15px;
+}
+
+#new2
+{
+ left : 600px;
+ top : 310px;
+  font-size : 15px;
+}
+
+#new3
+{
+ width : 75px;
+ left : 1250px;
+ top : 550px;
+ padding : 5px;
+}

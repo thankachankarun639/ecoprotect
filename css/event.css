@@ -1,0 +1,52 @@
+body
+{
+ margin: 0px;
+ padding : 0px;
+ background-image : url(../img/events.jpg)
+}
+a:link
+{
+ text-decoration : none;
+ color : black;
+}
+a:visited
+{
+ color : black;
+}
+#explanation
+{
+ position : absolute;
+ top : 0px;
+ left :350px;
+ height : 400;
+ width : 450px;
+ padding : 30px;
+ padding-top : 100px;
+ color : black;
+ font-family : Arial;
+ font-size : 17px;
+ background-color :color;
+ opacity : 0.8;
+ font-weight : bold;
+}
+#explanation > h1
+{
+ font-family : Forte;
+ font-size : 35px;
+ color : black;
+}
+
+#continue
+{
+position : absolute;
+ top :530px;
+ left :1000px;
+ color : black;
+ font-family : Agency FB;
+ font-size : 30px;
+ font-weight : bold;
+ padding-left : 30px;
+ color : white;
+ border-left : 2px solid white;
+ opacity : 0.85;
+}

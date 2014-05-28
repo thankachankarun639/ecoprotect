@@ -1,0 +1,100 @@
+body
+{
+ margin: 0px;
+ padding : 0px;
+}
+
+#slider
+{
+ position : absolute;
+ top :0px;
+ width : 1350px;
+ height : 700px;
+ overflow : hidden;
+ background-color : black;
+}
+#slider > img
+{
+ float : right;
+ padding-top : 2px;
+ padding-left : 2px;
+ border-bottom : 2px solid black;
+}
+
+#newsfeed
+{
+ background-color : #e6e4e4;
+ position : absolute;
+ top : 705px;
+ width : 1350px;
+ height : 265px;
+ font-family : Agency FB;
+ font-size : 18.5px;
+}
+#eventfeed
+{
+ background-color : white;
+ position : absolute;
+ top : 970px;
+ width : 1350px;
+ height : 300px;
+ font-family : Agency FB;
+ font-size : 18.5px;
+}
+#new1, #new2, #new3, #new4, #event1, #event2, #event3, #event4
+{
+  padding : 10px;
+  position : absolute;
+  top : 20px;
+  height : 200px;
+  width : 250px;
+  border-bottom : 1px solid grey;
+  border-top : 1px solid grey;
+  }
+#new1, #event1
+{
+ left : 20px;
+}
+
+#new2, #event2
+{
+ left : 320px;
+}
+#new3, #event3
+{
+ left : 620px;
+}
+#new4, #event4
+{
+  left : 915px;
+}
+#new5, #event5
+{
+ position : absolute;
+ top : 15px;
+ left : 1250px;
+ font-size : 45px;
+ font-weight : bold;
+ color : white;
+}
+#event5
+{
+ top : 5px;
+ color : black;
+}
+#link
+{
+ position : absolute;
+ top : 190px;
+ left : 200px;
+}
+
+a:link
+{
+ text-decoration : none;
+ color : black;
+}
+a:visited
+{
+ color : black;
+}

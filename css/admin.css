@@ -1,0 +1,39 @@
+body
+{
+ margin: 0px;
+ padding : 0px;
+ background-image:url(../img/admin.png);
+ }
+a:link
+{
+ text-decoration : none;
+ color : black;
+}
+a:visited
+{
+ color : black;
+}
+
+#Info
+{
+ position : absolute;
+ top : 120px;
+ left : 50px;
+ width : 900px;
+ font-family : Agency FB;
+ font-size : 25px;
+}
+
+#information
+{
+ position : absolute;
+ top :130px;
+ left :950px;
+ color : black;
+ font-family : Agency FB;
+ font-size : 20px;
+ font-weight : bold;
+ padding-left : 50px;
+ border-left : 2px solid white;
+ opacity : 0.85;
+}
